@@ -4,5 +4,5 @@ vendor/plugins/taobao:
   url: git://github.com/taweili/taobao.git
   branch: master
   type: git
-  revision: b3ab54cb29457a07332bd6b9b616dd9c47ecc9eb
+  revision: 91b219f60d743f7d8b91f60761741a75b752cff6
   remote: braid/vendor/plugins/taobao
