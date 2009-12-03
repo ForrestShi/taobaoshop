@@ -4,8 +4,15 @@
   <body>
     <% if taobao_session.nil? -%>
       <%= taobao_auth_link("Login via Taobao") %>
+
+      <a href='http://wiki.open.taobao.com/index.php/WEB淘宝插件平台插件开发'>
+        Check this for how to login with Taobao
+      </a>
     <% else -%>
-      Welcome!
+      <h1>Welcome <%= @user[0].nick %></h1>
+
+      <%= debug(@shop) %>
+
     <% end -%>
   </body>
 </html>
