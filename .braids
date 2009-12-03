@@ -1,0 +1,8 @@
+--- 
+vendor/plugins/taobao: 
+  squashed: true
+  url: git://github.com/taweili/taobao.git
+  branch: master
+  type: git
+  revision: 3acb0bd8c439fbe63cc5736f95cb276e6cef40d5
+  remote: braid/vendor/plugins/taobao
