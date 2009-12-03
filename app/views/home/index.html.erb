@@ -1,0 +1,11 @@
+<html>
+  <head>
+  </head>
+  <body>
+    <% if taobao_session.nil? -%>
+      <%= taobao_auth_link("Login via Taobao") %>
+    <% else -%>
+      Welcome!
+    <% end -%>
+  </body>
+</html>
