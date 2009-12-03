@@ -10,9 +10,9 @@
       </a>
     <% else -%>
       <h1>Welcome <%= @user[0].nick %></h1>
-
-      <%= debug(@shop) %>
-
+      <ul>
+        <li>Your shop: <%= @shop[0].title %></li>
+      </ul>
     <% end -%>
   </body>
 </html>
