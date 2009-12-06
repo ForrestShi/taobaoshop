@@ -13,6 +13,12 @@
       <ul>
         <li>Your shop: <%= @shop[0].title %></li>
       </ul>
+      <h2>Your products <%= @products.size %></h2>
+      <ul>
+        <% for product in @products -%>
+          <li><%= product.name %> <%= product.pic_path %></li>
+       <% end -%>
+     </ul>
     <% end -%>
   </body>
 </html>
